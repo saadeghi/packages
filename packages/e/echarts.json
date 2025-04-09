@@ -23,16 +23,17 @@
         "basePath": "",
         "files": [
           "i18n/*.js",
-          "theme/**/*.js"
+          "theme/**/*.js",
+          "ssr/client/dist/*.js?(.map)"
         ]
       }
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/apache/incubator-echarts"
+    "url": "git+https://github.com/apache/echarts.git"
   },
-  "homepage": "http://echarts.apache.org",
+  "homepage": "https://echarts.apache.org",
   "license": "Apache-2.0",
   "authors": [
     {
